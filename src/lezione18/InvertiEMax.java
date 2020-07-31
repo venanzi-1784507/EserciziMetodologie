@@ -26,12 +26,17 @@ public class InvertiEMax {
 	}
 	
 	/**
+	 * 
+	 * 
 	 * metodo generico che prende una lista di comparable e ritorna i massimo dei comparable
 	 * @param <T>
 	 * @param lista
 	 * @return
 	 */
 	public static <T extends Comparable<T>> T max(List<T> lista){
+		//PRECISAZIONE:
+		//il primo elemento nel metodo dopo static e' il tipo generico il successivo e' la variabile
+		//di ritorno del metodo
 		T currMax = lista.get(0);
 		for(int i=0; i<lista.size(); i++)
 			currMax = currMax.compareTo(lista.get(i)) >0? currMax: lista.get(i);
