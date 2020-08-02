@@ -26,8 +26,6 @@ public class InvertiEMax {
 	}
 	
 	/**
-	 * 
-	 * 
 	 * metodo generico che prende una lista di comparable e ritorna i massimo dei comparable
 	 * @param <T>
 	 * @param lista
